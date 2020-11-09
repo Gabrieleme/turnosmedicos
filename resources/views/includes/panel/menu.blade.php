@@ -1,10 +1,10 @@
 <ul class="sidebar-menu" data-widget="tree">
     <li class="header">GESTIONAR DATOS</li>
-    <!-- Optionally, you can add icons to the links -->
-    <li class="active"><a href="#"><i class="fa fa-heartbeat"></i> <span>Dashboard</span></a></li>
-    <li><a href="#"><i class="fa fa-stethoscope"></i> <span>Especialidades</span></a></li>
-    <li><a href="#"><i class="fa fa-user-md"></i> <span>Médicos</span></a></li>
-    <li><a href="#"><i class="fa fa-user-plus"></i> <span>Pacientes</span></a></li>
+    <!-- este es el menu lateral principal -->
+    <li class="active"><a href="{{ url('/home')}}"><i class="fa fa-heartbeat"></i> <span>Dashboard</span></a></li>
+<li><a href="{{ url('/especialidad')}}"><i class="fa fa-stethoscope"></i> <span>Especialidades</span></a></li>
+    <li><a href="{{ url('/medicos')}}"><i class="fa fa-user-md"></i> <span>Médicos</span></a></li>
+    <li><a href="{{ url('/pacientes')}}"><i class="fa fa-user-plus"></i> <span>Pacientes</span></a></li>
     <li class="header">REPORTES</li>
     <li><a href="#"><i class="fa fa-search-plus"></i> <span>Frecuencia de citas</span></a></li>
     <li><a href="#"><i class="fa fa-medkit"></i> <span>Médicos mas activos</span></a></li>

@@ -261,7 +261,7 @@ desired effect
       </form>
       /.search form -->
 
-        <!-- Sidebar Menu -->
+        <!-- Menu lateral-->
             @include('includes.panel.menu')
       <!-- /.sidebar-menu -->
 
@@ -271,16 +271,9 @@ desired effect
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
+    <!-- Contenido de la pagina central (Page header) -->
     <section class="content-header">
-      <h1>
-        Page Header
-        <small>Optional description</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-        <li class="active">Here</li>
-      </ol>
+        @yield('content')
     </section>
 
     <!-- Main content -->
